@@ -10,7 +10,7 @@ end
 
 group :test do
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '>= 3.0.0'
   gem 'capybara'
   gem 'database_cleaner'
 end
